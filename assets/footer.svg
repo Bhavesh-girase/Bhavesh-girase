@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="120" viewBox="0 0 880 120" role="img">
+<defs><linearGradient id="ed" x1="0%" y1="0%" x2="100%" y2="0%"><stop offset="0" stop-color="#38bdf8"/><stop offset=".5" stop-color="#818cf8"/><stop offset="1" stop-color="#f472b6"/></linearGradient></defs>
+<rect width="880" height="120" rx="18" fill="#0b1324"/><rect x=".75" y=".75" width="878.5" height="118.5" rx="17.5" fill="none" stroke="#1e2d4d" stroke-width="1.5"/>
+<text x="440.0" y="52" text-anchor="middle" font-family="'Segoe UI', -apple-system, 'Helvetica Neue', Arial, sans-serif" font-size="21" font-style="italic" fill="#e2e8f0">“Compile it. Prove it. Benchmark it. Ship it.”</text>
+<text x="440.0" y="82" text-anchor="middle" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace" font-size="12" letter-spacing="3" fill="#64748b">BHAVESH GIRASE</text>
+<rect x="0" y="116" width="880" height="4" rx="2" fill="url(#ed)"/><rect x="0" y="116" width="120" height="4" rx="2" fill="#fff" opacity=".7"><animate attributeName="x" values="-120;880" dur="5s" repeatCount="indefinite"/></rect>
+</svg>
