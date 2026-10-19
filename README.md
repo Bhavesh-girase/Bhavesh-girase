@@ -1,171 +1,252 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f2027,50:203a43,100:2c5364&height=230&section=header&text=Bhavesh%20Girase&fontSize=56&fontColor=ffffff&fontAlignY=38&desc=AI%20Systems%20%C2%B7%20Agentic%20Workflows%20%C2%B7%20Security%20%26%20Privacy&descSize=18&descAlignY=60" width="100%" alt="Bhavesh Girase"/>
+<img src="https://capsule-render.vercel.app/api?type=venom&color=0:0b1020,45:1b2a4a,100:3b2a6b&height=260&section=header&text=Bhavesh%20Girase&fontSize=60&fontColor=e6f1ff&fontAlignY=42&desc=Scalable%20Systems%20%C2%B7%20Agentic%20AI%20%C2%B7%20Compliance%20%C2%B7%20Privacy%20and%20Security&descSize=17&descColor=8fb3ff&descAlignY=62&animation=fadeIn" width="100%" alt="Bhavesh Girase"/>
 
 <a href="https://github.com/Bhavesh-girase">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=19&duration=3000&pause=1000&color=38BDF8&center=true&vCenter=true&width=760&lines=Building+scalable+AI+systems+that+hold+up+in+production;Agentic+workflows+with+guardrails+around+every+action;AI+compliance%2C+security+and+privacy-preserving+design;Open+to+internships+and+opportunities" alt="Typing SVG"/>
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=18&duration=3200&pause=900&color=7DD3FC&center=true&vCenter=true&width=820&height=34&lines=%3E+architecting+AI+systems+that+scale;%3E+building+agents+with+guardrails+around+every+action;%3E+proving+compliance%2C+not+just+claiming+it;%3E+keeping+private+data+private+by+design;%3E+open+to+internships+and+opportunities" alt="Typing SVG"/>
 </a>
 
 <br/><br/>
 
-![Open to Work](https://img.shields.io/badge/Open%20to-Internships%20%26%20Opportunities-2ea44f?style=for-the-badge)
-![Focus](https://img.shields.io/badge/Focus-Applied%20AI%20%C2%B7%20Backend%20%C2%B7%20Security-0f2027?style=for-the-badge)
-![Hackathon](https://img.shields.io/badge/Smart%20India%20Hackathon-2026-FF9933?style=for-the-badge)
+<img src="https://img.shields.io/badge/STATUS-OPEN%20TO%20INTERNSHIPS-2ea44f?style=for-the-badge&labelColor=0b1020" alt="Open to internships"/>
+<img src="https://img.shields.io/badge/FOCUS-AI%20%C2%B7%20BACKEND%20%C2%B7%20SECURITY-7c6cf0?style=for-the-badge&labelColor=0b1020" alt="Focus"/>
 
 </div>
 
----
+<br/>
 
-## 👋 About
+```ts
+import { agents, scale, compliance, privacy } from "@bhavesh/craft";
 
-I treat AI as an **engineering discipline**: something to be architected, load-tested, verified and secured, not just prompted.
+/**  Bhavesh Girase  ·  aspiring AI systems engineer  ·  open to internships  */
+export const bhavesh = {
+  mission: "Build AI that is scalable, verifiable and private by design.",
 
-My work sits where **machine learning meets real systems**. I build agentic workflows that retrieve and act, backends that stay correct under concurrent load, and products where **compliance and privacy are enforced by architecture** rather than promised in a policy document.
+  craft: {
+    agents:     ["Hybrid RAG", "Multi-agent debate", "Tool-using browser agents", "MCP"],
+    scale:      ["Redis + Lua atomics", "RabbitMQ", "WebSockets", "k6 + Locust"],
+    compliance: ["Z3 SMT proofs", "SARIF linting", "Hash-chained audit trails"],
+    privacy:    ["On-device PII redaction", "Merkle proofs", "Encrypted local storage"],
+  },
 
-I'm a student developer looking for an **internship** where I can contribute to production AI, agentic systems or backend infrastructure, and keep learning from strong engineers.
+  principles: [
+    "deterministic first, LLM second",
+    "privacy by architecture, not by policy",
+    "measure, then claim",
+  ],
 
----
+  now: {
+    exploring: ["Agent guardrails", "LLM evaluation", "AI security"],
+    seeking:   "internships where AI meets real engineering",
+    available: true,
+  },
+} as const;
 
-## 🎯 What I Do
-
-| | Focus area | What it means in practice |
-|:--:|:--|:--|
-| ⚙️ | **Scalable Systems** | Concurrent, event-driven backends with atomic hot paths (Redis + Lua), async workers (RabbitMQ), real-time delivery (WebSockets), validated under load with k6 and Locust, shipped in Docker. |
-| 🤖 | **Agentic Workflows** | LLM agents that retrieve, reason and act: hybrid RAG (BM25 + vector search with cross-encoder reranking), multi-agent debate, tool-using browser agents, on-device and cloud models. |
-| 🧾 | **AI Compliance & Verification** | Turning rules into something a machine can prove: formal verification with the Z3 SMT solver, rule engines and SARIF linting, audit trails, and a deterministic-first design where LLMs assist but never decide. |
-| 🔐 | **Privacy & Security** | Privacy enforced by architecture: on-device PII detection and redaction, cryptographic (Merkle-tree) proof of redaction, encrypted local storage, hardened authentication and strict input validation. |
-| 📈 | **ML in Production** | Taking models from notebook to containerised API: tabular ML, deep learning for audio, threshold tuning for real-world trade-offs, and serving with FastAPI. |
-
----
-
-## 🧭 How I Build
-
-```mermaid
-flowchart LR
-    A["Problem<br/>& constraints"] --> B["Model / Agent<br/>design"]
-    B --> C["Guardrails<br/>compliance · privacy · security"]
-    C --> D["API & Services<br/>FastAPI · Node.js"]
-    D --> E["Interface<br/>React · Next.js"]
-    E --> F["Deploy<br/>Docker · AWS · Vercel"]
-    F --> G["Benchmark<br/>k6 · Locust · tests"]
-    G -. "measure, then claim" .-> A
+bhavesh.ship({ agents, scale, compliance, privacy }); // → tested, benchmarked, deployed.
 ```
 
-**Principles**
-
-- **Deterministic first, LLM second.** Rules, solvers and proofs make the decision; models draft, explain and assist.
-- **Privacy by architecture.** Handle sensitive data where it lives, so leaks are structurally impossible rather than merely discouraged.
-- **Measure, then claim.** Every headline number should come from a benchmark, a load test or a test suite that anyone can re-run.
-
----
-
-## 🧰 Skills & Stack
-
-**Agentic AI & LLMs**
 <br/>
-![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square&logo=langchain&logoColor=white)
-![Gemini](https://img.shields.io/badge/Gemini-8E75B2?style=flat-square&logo=googlegemini&logoColor=white)
-![ChromaDB](https://img.shields.io/badge/ChromaDB-FF6446?style=flat-square)
-![MCP](https://img.shields.io/badge/MCP-FF6B35?style=flat-square)
-![RAG](https://img.shields.io/badge/Hybrid%20RAG-BM25%20%2B%20Vector-5A29E4?style=flat-square)
-![WebLLM](https://img.shields.io/badge/WebLLM-Qwen2.5-0A66C2?style=flat-square)
 
-**Machine Learning & MLOps**
+<div align="center"><img src="https://capsule-render.vercel.app/api?type=soft&color=0:0b1020,100:3b2a6b&height=64&section=header&text=What%20I%20Do&fontSize=26&fontColor=e6f1ff&fontAlignY=52" width="100%" alt="What I Do"/></div>
+
+<table>
+<tr>
+<td width="33%" valign="top">
+
+### ⚙️ Scalable Systems
+Concurrent, event-driven backends that stay correct under pressure.
+
+- Atomic hot paths with Redis + Lua
+- Async workers via RabbitMQ
+- Real-time delivery over WebSockets
+- Load-tested with k6 and Locust
+
+</td>
+<td width="33%" valign="top">
+
+### 🤖 Agentic Workflows
+LLM agents that retrieve, reason and act, safely.
+
+- Hybrid RAG: BM25 + vector search
+- Cross-encoder reranking
+- Multi-agent debate, tool-using agents
+- On-device and cloud LLMs, MCP
+
+</td>
+<td width="33%" valign="top">
+
+### 🧾 AI Compliance
+Rules a machine can prove, not just a model's opinion.
+
+- Formal verification with Z3 SMT
+- Rule engines and SARIF linting
+- Audit trails, hash-chained logs
+- LLMs assist, never decide
+
+</td>
+</tr>
+<tr>
+<td width="33%" valign="top">
+
+### 🔐 Privacy and Security
+Privacy enforced by architecture, verifiable by anyone.
+
+- On-device PII detection and redaction
+- Merkle-tree proofs of redaction
+- Encrypted local storage
+- Hardened auth and strict validation
+
+</td>
+<td width="33%" valign="top">
+
+### 📈 ML in Production
+From notebook to containerised, measurable API.
+
+- Tabular ML and deep learning for audio
+- Threshold tuning for real trade-offs
+- FastAPI model serving
+- Reproducible benchmarks
+
+</td>
+<td width="33%" valign="top">
+
+### 🚀 End-to-End Delivery
+Model, API, interface and deployment in one loop.
+
+- React / Next.js interfaces
+- Chrome extensions (Manifest V3)
+- Docker, AWS EC2, Vercel
+- Documented quick-starts
+
+</td>
+</tr>
+</table>
+
 <br/>
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=flat-square&logo=tensorflow&logoColor=white)
-![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=flat-square&logo=scikitlearn&logoColor=white)
-![CatBoost](https://img.shields.io/badge/CatBoost-FFCC00?style=flat-square&logoColor=black)
-![ONNX](https://img.shields.io/badge/ONNX-005CED?style=flat-square&logo=onnx&logoColor=white)
-![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=flat-square&logo=opencv&logoColor=white)
-![Pandas](https://img.shields.io/badge/pandas-150458?style=flat-square&logo=pandas&logoColor=white)
-![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white)
 
-**Backend & Scalability**
+<div align="center"><img src="https://capsule-render.vercel.app/api?type=soft&color=0:0b1020,100:3b2a6b&height=64&section=header&text=Engineering%20Principles&fontSize=26&fontColor=e6f1ff&fontAlignY=52" width="100%" alt="Engineering Principles"/></div>
+
+<table>
+<tr>
+<td width="33%" align="center" valign="top">
+
+**🧠 Deterministic first,<br/>LLM second**
+
+Solvers and rules make the call. Models draft, explain and assist, but never get the final word.
+
+</td>
+<td width="33%" align="center" valign="top">
+
+**🛡️ Privacy by<br/>architecture**
+
+Handle sensitive data where it lives, so leaks are structurally impossible, not just against the rules.
+
+</td>
+<td width="33%" align="center" valign="top">
+
+**📏 Measure,<br/>then claim**
+
+Every headline number comes from a benchmark, load test or test suite that anyone can re-run.
+
+</td>
+</tr>
+</table>
+
 <br/>
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white)
-![Express](https://img.shields.io/badge/Express-000000?style=flat-square&logo=express&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
-![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white)
-![RabbitMQ](https://img.shields.io/badge/RabbitMQ-FF6600?style=flat-square&logo=rabbitmq&logoColor=white)
-![Socket.io](https://img.shields.io/badge/Socket.io-010101?style=flat-square&logo=socketdotio&logoColor=white)
-![k6](https://img.shields.io/badge/k6-7D64FF?style=flat-square&logo=k6&logoColor=white)
-![Locust](https://img.shields.io/badge/Locust-3F9E3F?style=flat-square)
 
-**Security, Privacy & Compliance**
+<div align="center"><img src="https://capsule-render.vercel.app/api?type=soft&color=0:0b1020,100:3b2a6b&height=64&section=header&text=Skills%20and%20Stack&fontSize=26&fontColor=e6f1ff&fontAlignY=52" width="100%" alt="Skills and Stack"/></div>
+
+<table>
+<tr>
+<td width="190" valign="middle"><b>🤖 Agentic AI and LLMs</b></td>
+<td>
+<img src="https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white" alt="LangChain"/> <img src="https://img.shields.io/badge/Gemini-8E75B2?style=for-the-badge&logo=googlegemini&logoColor=white" alt="Gemini"/><br/>
+<img src="https://img.shields.io/badge/ChromaDB-FF6446?style=for-the-badge&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjZmZmIiBzdHJva2Utd2lkdGg9IjIiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCI%2BPGNpcmNsZSBjeD0iOSIgY3k9IjkiIHI9IjUiLz48Y2lyY2xlIGN4PSIxNSIgY3k9IjkiIHI9IjUiLz48Y2lyY2xlIGN4PSIxMiIgY3k9IjE1IiByPSI1Ii8%2BPC9zdmc%2B" alt="ChromaDB"/> <img src="https://img.shields.io/badge/MCP-FF6B35?style=for-the-badge&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjZmZmIiBzdHJva2Utd2lkdGg9IjIiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCI%2BPHBhdGggZD0iTTggM3Y0TTE2IDN2NCIvPjxwYXRoIGQ9Ik02IDdoMTJ2NGE2IDYgMCAwIDEtMTIgMHoiLz48cGF0aCBkPSJNMTIgMTd2NCIvPjwvc3ZnPg%3D%3D" alt="MCP"/>
+</td>
+</tr>
+<tr>
+<td valign="middle"><b>📈 ML and Data</b></td>
+<td>
+<img src="https://skillicons.dev/icons?i=py,tensorflow,sklearn,opencv,pandas,numpy&theme=dark" alt="ML and data"/><br/>
+<img src="https://img.shields.io/badge/CatBoost-E8A800?style=for-the-badge&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjZmZmIiBzdHJva2Utd2lkdGg9IjIiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCI%2BPHBhdGggZD0iTTQgNGw1IDNoNmw1LTN2OWE4IDggMCAwIDEtMTYgMHoiLz48Y2lyY2xlIGN4PSI5IiBjeT0iMTMiIHI9IjEuMiIgZmlsbD0iI2ZmZiIvPjxjaXJjbGUgY3g9IjE1IiBjeT0iMTMiIHI9IjEuMiIgZmlsbD0iI2ZmZiIvPjwvc3ZnPg%3D%3D" alt="CatBoost"/> <img src="https://img.shields.io/badge/ONNX-005CED?style=for-the-badge&logo=onnx&logoColor=white" alt="ONNX"/>
+</td>
+</tr>
+<tr>
+<td valign="middle"><b>⚙️ Backend and Scale</b></td>
+<td>
+<img src="https://skillicons.dev/icons?i=fastapi,nodejs,express,postgres,redis,rabbitmq,socketio&theme=dark" alt="Backend"/><br/>
+<img src="https://img.shields.io/badge/k6-7D64FF?style=for-the-badge&logo=k6&logoColor=white" alt="k6"/> <img src="https://img.shields.io/badge/Locust-3F9E3F?style=for-the-badge&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjZmZmIiBzdHJva2Utd2lkdGg9IjIiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCI%2BPHBhdGggZD0iTTMgMTJoNGwyLTYgNCAxMiAyLTZoNiIvPjwvc3ZnPg%3D%3D" alt="Locust"/>
+</td>
+</tr>
+<tr>
+<td valign="middle"><b>🔐 Security, Privacy and Compliance</b></td>
+<td>
+<img src="https://img.shields.io/badge/Z3%20SMT-8B0000?style=for-the-badge&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjZmZmIiBzdHJva2Utd2lkdGg9IjIiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCI%2BPHBhdGggZD0iTTMgNmg4TDMgMThoOCIvPjxwYXRoIGQ9Ik0xNCA2aDdsLTQgNWMyLjYgMCA0IDEuNSA0IDMuNVMxOSAxOCAxNyAxOGgtMyIvPjwvc3ZnPg%3D%3D" alt="Z3 SMT"/> <img src="https://img.shields.io/badge/SARIF-4B32C3?style=for-the-badge&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjZmZmIiBzdHJva2Utd2lkdGg9IjIiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCI%2BPHBhdGggZD0iTTYgM2g5bDQgNHYxNEg2eiIvPjxwYXRoIGQ9Ik05IDEzbDIgMiA0LTQiLz48L3N2Zz4%3D" alt="SARIF"/> <img src="https://img.shields.io/badge/JWT-000000?style=for-the-badge&logo=jsonwebtokens&logoColor=white" alt="JWT"/><br/>
+<img src="https://skillicons.dev/icons?i=supabase&theme=dark" alt="Supabase Auth"/>
+</td>
+</tr>
+<tr>
+<td valign="middle"><b>🎨 Frontend</b></td>
+<td>
+<img src="https://skillicons.dev/icons?i=ts,js,react,nextjs,vite,tailwind,html,css&theme=dark" alt="Frontend"/><br/>
+<img src="https://img.shields.io/badge/Chrome%20Extensions-4285F4?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Chrome Extensions"/>
+</td>
+</tr>
+<tr>
+<td valign="middle"><b>☁️ Cloud and Tooling</b></td>
+<td>
+<img src="https://skillicons.dev/icons?i=docker,aws,vercel,git,github,linux,postman,vscode&theme=dark" alt="Cloud and tooling"/>
+</td>
+</tr>
+<tr>
+<td valign="middle"><b>🔭 Currently exploring</b></td>
+<td>
+<img src="https://skillicons.dev/icons?i=kubernetes,kafka&theme=dark" alt="Exploring"/><br/>
+<img src="https://img.shields.io/badge/LangGraph-30363d?style=for-the-badge&logo=langchain&logoColor=white" alt="LangGraph"/> <img src="https://img.shields.io/badge/LLM%20Evals-30363d?style=for-the-badge&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjZmZmIiBzdHJva2Utd2lkdGg9IjIiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCI%2BPHBhdGggZD0iTTQgNmwyIDIgMy0zTTQgMTRsMiAyIDMtMyIvPjxwYXRoIGQ9Ik0xMyA3aDdNMTMgMTVoNyIvPjwvc3ZnPg%3D%3D" alt="LLM Evals"/><br/>
+<img src="https://img.shields.io/badge/OWASP%20LLM%20Top%2010-30363d?style=for-the-badge&logo=owasp&logoColor=white" alt="OWASP LLM Top 10"/> <img src="https://img.shields.io/badge/OpenTelemetry-30363d?style=for-the-badge&logo=opentelemetry&logoColor=white" alt="OpenTelemetry"/>
+</td>
+</tr>
+</table>
+
 <br/>
-![Z3](https://img.shields.io/badge/Z3%20SMT-Formal%20Verification-8B0000?style=flat-square)
-![SARIF](https://img.shields.io/badge/SARIF-2.1.0-4B32C3?style=flat-square)
-![JWT](https://img.shields.io/badge/JWT-000000?style=flat-square&logo=jsonwebtokens&logoColor=white)
-![Supabase](https://img.shields.io/badge/Supabase%20Auth-3FCF8E?style=flat-square&logo=supabase&logoColor=white)
-![PII](https://img.shields.io/badge/PII%20Detection%20%26%20Redaction-00C853?style=flat-square)
-![Merkle](https://img.shields.io/badge/Merkle%20Proofs-1D4F93?style=flat-square)
-![W3C VC](https://img.shields.io/badge/W3C%20Verifiable%20Credentials-005A9C?style=flat-square)
 
-**Frontend**
+<div align="center"><img src="https://capsule-render.vercel.app/api?type=soft&color=0:0b1020,100:3b2a6b&height=64&section=header&text=Open%20to%20Opportunities&fontSize=26&fontColor=e6f1ff&fontAlignY=52" width="100%" alt="Open to Opportunities"/></div>
+
+> [!IMPORTANT]
+> **I'm looking for internships and early-career roles** where AI meets real engineering: production AI, agentic systems and infrastructure people can trust.
+
+| Target area | What I'd work on |
+|:--|:--|
+| 🧠 **AI / ML Engineering** | Model development, evaluation and serving |
+| 🤖 **LLM and Agent Systems** | RAG pipelines, tool-using agents, guardrails |
+| ⚙️ **Backend / Platform** | Scalable, event-driven, observable services |
+| 🔐 **AI Security, Privacy and Compliance** | Trustworthy, verifiable and private AI |
+
+**What I bring:** I ship end-to-end (model → API → UI → deploy), I think in guarantees (atomicity, proofs, privacy), and I back every claim with numbers.
+
 <br/>
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
-![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black)
-![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white)
-![Vite](https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white)
-![Tailwind](https://img.shields.io/badge/Tailwind-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white)
-![Chrome Extensions](https://img.shields.io/badge/Chrome%20Extensions-MV3-4285F4?style=flat-square&logo=googlechrome&logoColor=white)
 
-**Cloud & Delivery**
-<br/>
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
-![AWS](https://img.shields.io/badge/AWS%20EC2-FF9900?style=flat-square&logo=amazonec2&logoColor=white)
-![Vercel](https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=white)
-![Render](https://img.shields.io/badge/Render-46E3B7?style=flat-square&logo=render&logoColor=black)
-![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
-
-**Currently exploring**
-<br/>
-![LangGraph](https://img.shields.io/badge/LangGraph-lightgrey?style=flat-square)
-![LLM Evals](https://img.shields.io/badge/LLM%20Evaluation-lightgrey?style=flat-square)
-![OWASP LLM](https://img.shields.io/badge/OWASP%20LLM%20Top%2010-lightgrey?style=flat-square)
-![Kubernetes](https://img.shields.io/badge/Kubernetes-lightgrey?style=flat-square&logo=kubernetes&logoColor=black)
-![Kafka](https://img.shields.io/badge/Kafka-lightgrey?style=flat-square&logo=apachekafka&logoColor=black)
-![OpenTelemetry](https://img.shields.io/badge/OpenTelemetry-lightgrey?style=flat-square&logo=opentelemetry&logoColor=black)
-
----
-
-## 💼 Open to Opportunities
-
-I'm actively looking for **internships and early-career roles** in:
-
-- **AI / ML Engineering**: model development, evaluation and serving
-- **LLM & Agent Systems**: RAG, tool-using agents, guardrails
-- **Backend / Platform Engineering**: scalable, event-driven services
-- **AI Security, Privacy & Compliance**: trustworthy and verifiable AI
-
-**What I bring:** I ship end-to-end (model → API → UI → deploy), I think in guarantees (atomicity, proofs, privacy), and I back claims with benchmarks.
-
----
-
-## 📊 GitHub Activity
+<div align="center"><img src="https://capsule-render.vercel.app/api?type=soft&color=0:0b1020,100:3b2a6b&height=64&section=header&text=GitHub%20Dashboard&fontSize=26&fontColor=e6f1ff&fontAlignY=52" width="100%" alt="GitHub Dashboard"/></div>
 
 <div align="center">
 
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=Bhavesh-girase&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0f2027" alt="GitHub stats"/>
-<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Bhavesh-girase&layout=compact&theme=tokyonight&hide_border=true&bg_color=0f2027" alt="Top languages"/>
+<img height="170" src="https://github-readme-stats.vercel.app/api?username=Bhavesh-girase&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0b1020&title_color=7dd3fc&icon_color=a78bfa" alt="GitHub stats"/>
+<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Bhavesh-girase&layout=compact&theme=tokyonight&hide_border=true&bg_color=0b1020&title_color=7dd3fc" alt="Top languages"/>
+
+<img src="https://streak-stats.demolab.com?user=Bhavesh-girase&theme=tokyonight&hide_border=true&background=0b1020&ring=a78bfa&fire=f472b6&currStreakLabel=7dd3fc" alt="GitHub streak"/>
+
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=Bhavesh-girase&theme=tokyo-night&bg_color=0b1020&hide_border=true&area=true&color=7dd3fc&line=a78bfa&point=f472b6" width="100%" alt="Contribution activity"/>
 
 </div>
 
----
-
-## 🤝 Let's Connect
+<br/>
 
 <div align="center">
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/YOUR-LINKEDIN-ID)
-[![Email](https://img.shields.io/badge/Email-Say%20Hello-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:YOUR-EMAIL@example.com)
-[![GitHub](https://img.shields.io/badge/GitHub-Bhavesh--girase-181717?style=for-the-badge&logo=github)](https://github.com/Bhavesh-girase)
+<a href="https://www.linkedin.com/in/YOUR-LINKEDIN-ID"><img src="https://img.shields.io/badge/LinkedIn-Let's%20connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
+<a href="mailto:YOUR-EMAIL@example.com"><img src="https://img.shields.io/badge/Email-Say%20hello-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/></a>
+<a href="https://github.com/Bhavesh-girase"><img src="https://img.shields.io/badge/GitHub-Bhavesh--girase-181717?style=for-the-badge&logo=github" alt="GitHub"/></a>
 
-<sub>Open to conversations about applied AI, agentic systems and secure, scalable backends.</sub>
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:2c5364,50:203a43,100:0f2027&height=110&section=footer" width="100%" alt="footer"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:3b2a6b,45:1b2a4a,100:0b1020&height=130&section=footer&text=Compile%20it.%20Prove%20it.%20Benchmark%20it.%20Ship%20it.&fontSize=18&fontColor=8fb3ff&fontAlignY=68" width="100%" alt="footer"/>
 
 </div>
