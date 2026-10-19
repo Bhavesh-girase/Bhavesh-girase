@@ -8,7 +8,7 @@
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f2027,50:203a43,100:2c5364&height=220&section=header&text=Bhavesh%20Girase&fontSize=58&fontColor=ffffff&animation=fadeIn&fontAlignY=36&desc=AI%20%C2%B7%20Machine%20Learning%20%C2%B7%20Full-Stack%20Engineering&descSize=18&descAlignY=58" width="100%" alt="Bhavesh Girase banner"/>
 
 <a href="https://github.com/Bhavesh-girase">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=20&duration=3200&pause=900&color=3FB6D8&center=true&vCenter=true&width=700&lines=Building+AI+systems+that+actually+ship;Real-time+backends+%7C+RAG+pipelines+%7C+ML+in+production;Privacy-first+%C2%B7+Measured+%C2%B7+Reproducible;Hackathon+builder+%E2%80%94+SIH+2026+finalist+projects" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=20&duration=3200&pause=900&color=3FB6D8&center=true&vCenter=true&width=700&lines=Building+AI+systems+that+actually+ship;Real-time+backends+%7C+RAG+pipelines+%7C+ML+in+production;Privacy-first+%C2%B7+Measured+%C2%B7+Reproducible;alt="Typing SVG" />
 </a>
 
 <br/>
